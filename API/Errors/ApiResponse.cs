@@ -24,10 +24,10 @@ namespace API.Errors
         private string GetDefaultMessageForStatusCode(int statusCode)
         {
             return statusCode switch{
-                400 => "You have made a bad request",
-                401 => "You are not authorized",
-                404 => "Resource was not found",
-                500 => "Errors",
+                400 => "You have made a bad request!",
+                401 => "You are not authorized!",
+                404 => "Resource was not found!",
+                500 => "Errors!",
                 _ => null
             };
         }

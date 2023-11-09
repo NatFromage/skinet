@@ -475,3 +475,6 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+client/key.pem
+client/cert.pem
+client/cert.pem
